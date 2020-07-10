@@ -19,7 +19,9 @@ print(phrase.index("Acad"))
 print(phrase.replace("Giraffe" , "Elephant"))
 
 from math import *
+
 # Number and Expressions
+
 print(10 % 3)
 my_num = -5
 print(my_num)
@@ -29,14 +31,15 @@ print(round(3.7))
 print(ceil(3.7))
 print(sqrt(3.7))
 
-# name = input ("Enter your name: ")
-# age = input("Enter your age: ")
-# print("Hello " + name + "! You are " + age + "!")
+name = input ("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "! You are " + age + "!")
 
-# num1 = input("Enter a number: ")
-# num2 = input("Enter another number: ")
-# result = float(num1) + float(num2)
-# print(result)
+
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = float(num1) + float(num2)
+
 
 train = "Python is a language"
 print(train)
@@ -49,8 +52,6 @@ print(len(train))
 print(train[12])
 print(train.index("lang"))
 print(train.replace("Java", "Python"))
-
-
 
 color = input("Enter a color: ")
 plural_noun = input("Enter a plural noun: ")
