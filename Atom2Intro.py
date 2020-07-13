@@ -18,7 +18,7 @@ print(phrase[3])
 print(phrase.index("Acad"))
 
 from math import *
-
+ 
 #Numbers and Expressions
 #
 print(10 % 3)
