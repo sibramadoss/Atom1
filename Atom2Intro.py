@@ -215,6 +215,70 @@ for col in number_grid:
     for row in col:
         print(row)
 
+#Try Except
+try:
+    number = int(input("Enter a number: "))
+    print(number)
+except ZeroDivisionError as err:
+    print(err)
+except ValueError:
+    print("Invalid Input")
+
+#Reading Files
+employee_file = open ("employee.txt", "r")
+print(employee_file.read())
+print(employee_file.readlines())
+for employee in employee_file.readlines():
+    print(employee)
+employee_file.close()
+
+#Writing/Appending Files
+employee_file = open("employee.txt", "a")
+employee_file.write("\nKeep it cool bro.")
+employee_file.close()
+
+employee_file = open("employee.txt", "w")
+employee_file.write("\nKeep it cool bro.")
+employee_file.close()
+
+#Modules and Pip
+#import fractions
+#print(fractions.whatever_function_you_need)
+#import docx
+#docx.whatever
+
+#Classes and Objects
+from Student import Student
+student1 = Student("Jim", "Business", 3.1, False)
+print(student1.name)
+
+#Multiple Choice Quiz
+class Question:
+    def __init__(self, prompt, answer):
+        self.prompt = prompt
+        self.answer = answer
+
+question_prompts = [
+"What color are apples?\n(a) Red/Green\n(b) Purple\n(c) Orange\n\n",
+"What color are bananas?\n(a) Teal\n(b) Magenta\n (c) Yellow\n\n",
+"What color are strawberries\n(a) Yellow\n(b) Red\n(c) Blue\n\n"
+]
+
+questions = [
+    Question(question_prompts[0], "a"),
+    Question(question_prompts[1], "c"),
+    Question(question_prompts[2], "b")
+]
+
+
+def run_test(questions):
+    score = 0
+    for question in questions:
+        answer = input(question.prompt)
+        if answer == question.answer:
+            score += 1
+    print("You got " + str(score) + "/" + str(len(questions)) + " correct.")
+
 #Translator
 def translate(phrase):
     translation = ""
