@@ -248,7 +248,7 @@ employee_file.close()
 #docx.whatever
 
 #Classes and Objects
-from Student import Student
+from .student import student
 student1 = Student("Jim", "Business", 3.1, False)
 print(student1.name)
 
