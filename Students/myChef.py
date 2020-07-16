@@ -23,3 +23,4 @@ class ChineseChef(Chef):
 myChineseChef = ChineseChef()
 myChineseChef.make_salad()
 myChineseChef.make_special_dish()
+myChineseChef.make_chicken()
