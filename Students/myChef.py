@@ -20,8 +20,12 @@ class ChineseChef(Chef):
     def make_special_dish(self):
         print("The chef makes orange chicken.")
 
+    def make_spring_rolls(self):
+        print("The chef makes spring rolls.")
+
 myChineseChef = ChineseChef()
 myChineseChef.make_salad()
 myChineseChef.make_special_dish()
 myChineseChef.make_chicken()
 myChineseChef.make_fried_rice()
+myChineseChef.make_spring_rolls()
