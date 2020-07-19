@@ -11,17 +11,22 @@ class Chef:
 
 myChef = Chef()
 myChef.make_special_dish()
+myChef.make_salad()
+
 
 class ChineseChef(Chef):
 
+    def make_chicken(self):
+        print("The Chinese chef makes a chicken.")
+
     def make_fried_rice(self):
-        print("The chef makes friend rice.")
+        print("The Chinese chef makes friend rice.")
 
     def make_special_dish(self):
-        print("The chef makes orange chicken.")
+        print("The Chinese chef makes orange chicken.")
 
     def make_spring_rolls(self):
-        print("The chef makes spring rolls.")
+        print("The Chinese chef makes spring rolls.")
 
 myChineseChef = ChineseChef()
 myChineseChef.make_salad()
