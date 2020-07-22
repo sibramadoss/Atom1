@@ -76,6 +76,7 @@ print(coordinates[1])
 
 def sayhi(name, age):
     print("Hello " + name + ", you are " + str(age) + ".")
+
 sayhi("Mike", 35)
 
 
@@ -83,9 +84,8 @@ sayhi("Mike", 35)
 
 def cube(num):
     return num*num*num
-result = cube(4)
-
-print(result)
+#result = cube(4)
+print(cube(4))
 
 
 #If statments
@@ -248,7 +248,7 @@ employee_file.close()
 #docx.whatever
 
 #Classes and Objects
-from .student import student
+from student import student
 student1 = Student("Jim", "Business", 3.1, False)
 print(student1.name)
 
