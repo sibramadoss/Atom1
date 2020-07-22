@@ -8,11 +8,13 @@ class Student:
 
     def on_honor_roll(self):
         if self.gpa  >= 3.5:
-            return True
+            return "Congratulations"
         else:
-            return False
+            return "Sorry, we are informing you today that you are not on the honor roll."
+
 
 class Question:
+
     def __init__(self, prompt, answer):
         self.prompt = prompt
         self.answer = answer
