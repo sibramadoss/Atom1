@@ -12,6 +12,14 @@ class Student:
         else:
             return "Sorry, we are informing you today that you are not on the honor roll."
 
+    def engineering(self):
+        if "Engineering" in self.major:
+            return "$1,000,000 starting"
+        else:
+            return "$500,000 starting"
+
+
+
 
 class Question:
 
