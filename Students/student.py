@@ -18,11 +18,18 @@ class Student:
         else:
             return "$500,000 starting"
 
-
+    def years_to_manage(self):
+        if "SOE" in self.major:
+            return "5 years needed"
+        elif "SAS" in self.major:
+            return "3 years needed"
+        else:
+            return "7 years needed"
 
 
 class Question:
 
     def __init__(self, prompt, answer):
+
         self.prompt = prompt
         self.answer = answer
