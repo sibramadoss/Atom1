@@ -15,6 +15,8 @@ class Student:
     def engineering(self):
         if "Engineering" in self.major:
             return "$1,000,000 starting"
+        elif "Computer Science" in self.major:
+            return "1,000,000 starting"
         else:
             return "$500,000 starting"
 
