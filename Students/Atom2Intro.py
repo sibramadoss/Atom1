@@ -55,16 +55,19 @@ print(train.replace("Python", "HTML"))
 
 lucky_numbers = [4, 7, 15, 16, 23, 42]
 friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"]
+print(friends+lucky_numbers)
 friends.extend(lucky_numbers)
+print(friends)
+print(friends.count("Jim"))
 friends.append("Creed")
 friends.insert(1, "Kelly")
 friends.remove("Jim")
 print(friends.index("Oscar"))
-print(friends.count("Jim"))
 friends.sort()
 lucky_numbers.reverse()
 friends2 = list(friends)
 print(friends)
+print(lucky_numbers+friends)
 
 #Tuples
 
