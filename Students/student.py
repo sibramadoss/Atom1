@@ -16,7 +16,9 @@ class Student:
         if "Engineering" in self.major:
             return "$1,000,000 starting"
         elif "Computer Science" in self.major:
-            return "1,000,000 starting"
+            return "$1,000,000 starting"
+        elif "Pre-Medicine" in self.major:
+            return "$50,000 starting"
         else:
             return "$500,000 starting"
 
@@ -33,6 +35,8 @@ class Student:
             return "You are eligible for a scholarship"
         else:
             return "You are not eligible for a scholarship"
+
+
 
 class Question:
 
