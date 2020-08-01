@@ -36,11 +36,17 @@ class Student:
         else:
             return "You are not eligible for a scholarship"
 
-
+    def med_sch(self):
+        if self.gpa >= 3.65 and "Pre-Medicine" in self.major:
+            return "You are eligible for Medical School"
+        elif self.gpa >=3.65 and "Pre-Medicine" not in self.major:
+            return "You are qualified but are not on the right track for Medical School"
+        else:
+            return "You are not eligible for Medical School"
 
 class Question:
 
     def __init__(self, prompt, answer):
 
-        self.prompt = prompt
+# REVIEW:        self.prompt = prompt
         self.answer = answer
