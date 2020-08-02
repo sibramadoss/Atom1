@@ -55,3 +55,25 @@ myIchef.make_naan()
 myIchef.make_chicken()
 myIchef.make_special_dish()
 myIchef.make_paneer()
+
+class ItalianChef(Chef):
+
+    def make_special_dish(self):
+        print("The Italian chef makes shrimp alfredo.")
+
+    def make_spaghetti(self):
+        print("The Italian chef makes spaghetti.")
+
+    def make_lasagna(self):
+        print("The Italian chef makes lasagna.")
+
+myItal = ItalianChef()
+myItal.make_lasagna()
+myItal.make_spaghetti()
+myItal.make_special_dish()
+myItal.make_chicken()
+myItal.make_salad()
+myItal.make_spaghetti()
+myItal.make_special_dish()
+myItal.make_chicken()
+myItal.make_salad()
