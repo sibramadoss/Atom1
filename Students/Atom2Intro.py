@@ -88,6 +88,7 @@ sayhi("Mike", 35)
 def cube(num):
     return num*num*num
 #result = cube(4)
+
 print(cube(4))
 
 
@@ -194,6 +195,7 @@ for index in range(10):
 for index in range(3,10):
     print(index)
 
+print(range(4))
 #Exponent Functions
 print(2**4)
 def raise_to_power(base_num, pow_num):
