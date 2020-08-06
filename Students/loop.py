@@ -33,10 +33,11 @@ for index in nba:
         print index + " has not qualified for an Olympic basketball team."
 
 
-i = 1
 Balondor = ["Robert Lewandowski", "Cristiano Ronaldo", "Lionel Messi", "Kylian Mbappe", "Ciro Immobile", "Paulo Dybala", "Neymar Jr.", "Virgil Van Dijk", "Mohamed Salah", "Karim Benzema"]
-while i <= 5:
-    for index in Balondor:
-        print index + " (Finalist)"
-    i += 1
+for index in range(len(Balondor)):
+        if index <= 5:
+            print Balondor[index] + " Finalist"
+        else:
+            print Balondor[index]
+
 print("Conclude")
