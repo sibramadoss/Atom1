@@ -35,8 +35,8 @@ for index in nba:
 
 Balondor = ["Robert Lewandowski", "Cristiano Ronaldo", "Lionel Messi", "Kylian Mbappe", "Ciro Immobile", "Paulo Dybala", "Neymar Jr.", "Virgil Van Dijk", "Mohamed Salah", "Karim Benzema"]
 for index in range(len(Balondor)):
-        if index <= 5:
-            print Balondor[index] + " Finalist"
+        if index <= 2:
+            print Balondor[index] + " (Finalist)"
         else:
             print Balondor[index]
 
