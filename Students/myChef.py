@@ -77,3 +77,27 @@ myItal.make_spaghetti()
 myItal.make_special_dish()
 myItal.make_chicken()
 myItal.make_salad()
+
+
+class IndoChineseChef(IndianChef):
+
+    def make_roti_kanan(self):
+        print("The IndoChinese chef makes roti kanan.")
+
+    def make_singaporean_noodles(self):
+        print("The IndoChinese chef makes singaporean noodles.")
+
+    def make_special_dish(self):
+        print("The IndoChinese chef makes fish curry.")
+
+
+myId = IndoChineseChef()
+myId.make_chicken()
+myId.make_special_dish()
+myId.make_roti_kanan()
+myId.make_singaporean_noodles()
+myId.make_naan()
+myId.make_paneer()
+myId.make_salad()
+myId.make_chicken()
+myId.make_special_dish()
