@@ -3,7 +3,7 @@ def jailbreak(phrase):
     new_phrase = ""
     for index in phrase:
         if index in "AEIOUaeiou":
-            if index.isupper():
+            if index.isupper() == True:
                 new_phrase = new_phrase + "C"
             else:
                 new_phrase = new_phrase + "c"
@@ -41,3 +41,12 @@ for index in range(len(Balondor)):
             print Balondor[index]
 
 print("Conclude")
+
+UCL = ["PSG/1st", "Madrid/2nd", "Brugge/3rd", "Galatasaray/4th", "Bayern/1st", "Tottenham/2nd", "Olympiacos/3rd", "Crvena/4th", "MCI/1st", "Atalanta/2nd", "Shakhtar/3rd", "Zagreb/4th", "Juventus/1st", "Atletico/2nd", "Leverkusen/3rd", "Lokomotiv/4th", "Liverpool/1st", "Napoli/2nd", "Red Bull/3rd","Genk/4th", "FCB/1st", "BVB/2nd", "Inter/3rd", "Slavia/4th", "Leipzig/1st", "Lyon/2nd", "Benfica/3rd", "Zenit/4th", "Valencia/1st", "Chelsea/2nd", "Ajax/3rd", "Lille/4th"]
+for index in UCL:
+    if "1st" in index:
+        print index + " qualifies for round of 16 (will play 2nd place finisher)"
+    elif "2nd" in index:
+        print index + " qualifies for round of 16 (will play 1st place finisher)"
+    else:
+        print index + " does not qualify for round of 16"
