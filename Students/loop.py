@@ -50,3 +50,29 @@ for index in UCL:
         print index + " qualifies for round of 16 (will play 1st place finisher)"
     else:
         print index + " does not qualify for round of 16"
+
+i=1
+while i <= 5:
+    if i == 5:
+        print(3**i)
+    i += 1
+
+print("CONCLUDE")
+
+
+def power(base, twit):
+    answer = 1
+    for index in range(twit):
+        answer = base * base
+    print answer
+
+power(4,2)
+
+
+def test():
+    i=1
+    while i <= 10:
+        print i**i
+        i += 1
+
+test()

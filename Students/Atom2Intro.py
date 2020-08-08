@@ -40,6 +40,7 @@ print(sqrt(3.7))
 
 
 train = "Python is a language"
+print(train.isupper())
 print(train)
 print(train + "; a good one too.")
 print(train.lower())
