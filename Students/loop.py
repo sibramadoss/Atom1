@@ -12,7 +12,6 @@ def jailbreak(phrase):
 
 print(jailbreak(input("Enter a password: ")))
 
-
 social = ["twitter", "facebook", "instagram", "reddit"]
 
 for index in social:
