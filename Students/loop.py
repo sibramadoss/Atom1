@@ -106,3 +106,14 @@ def stopped(number):
         return number
 
 print(stopped(input("Enter a number: ")))
+
+
+baseball = "Miguel Cabrera, Mike Trout, Christian Yelich"
+bsb = ""
+for index in baseball:
+    if index in "AEIOUaeiou":
+        bsb = bsb + "o"
+    else:
+        bsb = bsb + index
+
+print(bsb)
