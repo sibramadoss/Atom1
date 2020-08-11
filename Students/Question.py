@@ -5,6 +5,7 @@ social_media = Question("Which tech entrepreneur invented the social media site,
 #print(history.prompt)
 #print(history.answer)
 #print(social_media.prompt)
+
 #print(social_media.answer)
 from student import Student
 student1 = Student("Thilaga", "SAS : Zoology", 3.7, False)
