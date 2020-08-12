@@ -101,3 +101,26 @@ myId.make_paneer()
 myId.make_salad()
 myId.make_chicken()
 myId.make_special_dish()
+
+
+class JapaneseChef(Chef):
+
+    def make_sushi(self):
+        print("The Japanese chef makes sushi.")
+
+    def make_miso_soup(self):
+        print("The Japanese chef makes miso soup.")
+
+    def make_special_dish(self):
+        print("The Japanese chef makes sashimi.")
+
+myJapa = JapaneseChef()
+myJapa.make_sushi()
+myJapa.make_miso_soup()
+myJapa.make_special_dish()
+myJapa.make_chicken()
+myJapa.make_salad()
+myJapa.make_sushi()
+myJapa.make_miso_soup()
+myJapa.make_special_dish()
+myJapa.make_chicken()
