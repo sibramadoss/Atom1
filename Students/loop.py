@@ -117,3 +117,12 @@ for index in baseball:
         bsb = bsb + index
 
 print(bsb)
+
+
+lan = ["Java is useful", "Java is the primary language", "Python is superior"]
+
+for index in lan:
+    if "Java" in index:
+        print(index.replace("Java", "Python"))
+    else:
+        print index
