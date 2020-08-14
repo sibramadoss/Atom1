@@ -126,3 +126,12 @@ for index in lan:
         print(index.replace("Java", "Python"))
     else:
         print index
+
+
+rap = ["Tjay(0)", "Birdman(0)", "Pump(0)", "Drake(1)", "Rae Sreemurd(1)", "J Cole(1)", "Kendrick Lamar(1)", "Lil Uzi(1)", "Roddy Rich(1)"]
+
+for rapper in rap:
+    if "0" in rapper:
+        print rapper + " is traaaash"
+    if "1" in rapper:
+        print rapper + " is fireeeee"
