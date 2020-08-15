@@ -135,3 +135,14 @@ for rapper in rap:
         print rapper + " is traaaash"
     if "1" in rapper:
         print rapper + " is fireeeee"
+
+
+qf = ["FCB (w)", "BAR", "RBL (w)", "ATM", "OL (w)", "MCI", "PSG (w)", "ATA"]
+
+for team in qf:
+    if "(w)" in team:
+        print team + " qualifies for semi-final."
+    else:
+        print team + " has been eliminated."
+
+pr
