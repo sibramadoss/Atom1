@@ -137,7 +137,7 @@ for rapper in rap:
         print rapper + " is fireeeee"
 
 
-qf = ["FCB (w)", "BAR", "RBL (w)", "ATM", "OL (w)", "MCI", "PSG (w)", "ATA"]
+qf = ["FCB(w)", "BAR", "RBL(w)", "ATM", "OL(w)", "MCI", "PSG(w)", "ATA"]
 
 for team in qf:
     if "(w)" in team:
