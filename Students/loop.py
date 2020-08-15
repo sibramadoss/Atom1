@@ -144,5 +144,3 @@ for team in qf:
         print team + " qualifies for semi-final."
     else:
         print team + " has been eliminated."
-
-pr
