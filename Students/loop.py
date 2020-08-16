@@ -144,3 +144,21 @@ for team in qf:
         print team + " qualifies for semi-final."
     else:
         print team + " has been eliminated."
+
+
+arr = [3,4,4,4,5,5,6]
+arr.sort(reverse = True)
+print (arr)
+
+soc = ["Ronaldo", "Messi", "Mbappe", "Neymar", "Lewandowski", "De Bruyne", "Gnabry", "Hazard", "Son"]
+a, b = soc.index("Lewandowski"), soc.index("Mbappe")
+soc[a], soc[b] = soc[b], soc[a]
+print(soc)
+print(soc.index("Lewandowski"))
+print(range(len(soc)))
+
+nfl = ["Mahomes", "Donald", "Jackson", "Wilson", "Thomas", "McCaffrey", "Kittle", "Gilmore", "Hopkins", "Henry"]
+nfl.insert(0, nfl.pop(3))
+nfl.insert(2, nfl.pop(3))
+nfl.insert(8, nfl.pop(4))
+print(nfl)
