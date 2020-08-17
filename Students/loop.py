@@ -162,3 +162,11 @@ nfl.insert(0, nfl.pop(3))
 nfl.insert(2, nfl.pop(3))
 nfl.insert(8, nfl.pop(4))
 print(nfl)
+
+
+n8s = ["Memphis", "Portland(q)", "San Antonio", "Phoenix", "Orlando(q)", "Sacramento", "Washington D.C.", "Charlotte", "Chicago"]
+for team in n8s:
+    if "(q)" in team:
+        print team + " has qualified for the nba playoffs."
+    else:
+        print team + " has not qualified for the nba playoffs."
