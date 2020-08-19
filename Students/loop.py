@@ -170,3 +170,12 @@ for team in n8s:
         print team + " has qualified for the nba playoffs."
     else:
         print team + " has not qualified for the nba playoffs."
+
+
+LS5 = ["Lebron James(ASG)", "Kentavious Caldwell-Pope", "Anthony Davis(ASG)", "JaVale McGee", "Danny Green"]
+
+for player in LS5:
+    if "ASG" in player:
+        print player + " has qualified for the 2020 All-Star Game."
+    else:
+        print player + " has not qualified for the 2020 All-Star Game."
