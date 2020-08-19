@@ -179,3 +179,12 @@ for player in LS5:
         print player + " has qualified for the 2020 All-Star Game."
     else:
         print player + " has not qualified for the 2020 All-Star Game."
+
+
+clf = ["Bayern Munich(+gd)", "Olympique Lyon(-gd)", "Paris-Saint Germain(+gd)", "RedBull Leipzig(-gd)"]
+
+for team in clf:
+    if "+gd" in team:
+        print team + " has qualified for the the Champions League Final."
+    else:
+        print team + " has not qualified for the the Champions League Final."
