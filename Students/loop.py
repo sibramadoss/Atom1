@@ -188,3 +188,11 @@ for team in clf:
         print team + " has qualified for the the Champions League Final."
     else:
         print team + " has not qualified for the the Champions League Final."
+
+g1n = ["LAC(1)", "DAL(0)", "POR(1)", "ORL(1)", "MIA(1)", "TOR(1)", "BOS(1)", "HOU(1)", "DEN(1)", "LAL(0)", "MIL(0)", "IND(0)", "PHI(0)", "OKC(0)", "UTA(0)", "BKN(0)"]
+
+for team in g1n:
+    if "(1)" in team:
+        print team + " is up 1-0 in the playoff series."
+    else:
+        print team + " is down 0-1 i the playoff series."
