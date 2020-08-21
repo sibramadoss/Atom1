@@ -198,7 +198,7 @@ for team in g1n:
         print team + " is down 0-1 i the playoff series."
 
 
-def usf(sevilla, inter_milan):
+def uel(sevilla, inter_milan):
     if sevilla > inter_milan:
         print "Sevilla wins the Europa League."
     elif inter_milan > sevilla:
@@ -206,4 +206,4 @@ def usf(sevilla, inter_milan):
     else:
         print "The match will be settled through extra time and, if needed, penalties."
 
-usf(3,3)
+uel(3,3)
