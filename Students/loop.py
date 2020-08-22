@@ -207,3 +207,11 @@ def UEL(sevilla, inter_milan):
         print "The match will be settled through extra time and, if needed, penalties."
 
 UEL(3,3)
+
+
+g2n = ["LAC(0)", "DAL(1)", "POR(0)", "ORL(0)", "MIA(1)", "TOR(1)", "BOS(1)", "HOU(1)", "DEN(0)", "LAL(1)", "MIL(1)", "IND(0)", "PHI(0)", "OKC(0)", "UTA(1)", "BKN(0)"]
+for team in g2n:
+    if "0" in team:
+        print team + " has lost the game second game of the series"
+    if "1" in team:
+        print team + " has won the second game of the series"

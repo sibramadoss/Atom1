@@ -228,13 +228,14 @@ except ZeroDivisionError as err:
 except ValueError:
     print("Invalid Input")
 
+open("employee.txt", "r")
 #Reading Files
 employee_file = open ("employee.txt", "r")
 print(employee_file.read())
 print(employee_file.readlines())
 for employee in employee_file.readlines():
     print(employee)
-employee_file.close()
+#employee_file.close()
 
 #Writing/Appending Files
 employee_file = open("employee.txt", "a")
