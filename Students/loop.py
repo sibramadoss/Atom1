@@ -215,3 +215,14 @@ for team in g2n:
         print team + " has lost the game second game of the series"
     if "1" in team:
         print team + " has won the second game of the series"
+
+
+def UCF(FCB, PSG):
+    if FCB > PSG:
+        print "Bayern Munich has won the 2020 Champions League Final."
+    elif PSG > FCB:
+        print "Paris Saint-Germain has won the 2020 Champions League Final."
+    else:
+        print "The match was not completed for unspecified reasons."
+
+UCF(1,1)
