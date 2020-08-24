@@ -226,3 +226,11 @@ def UCF(FCB, PSG):
         print "The match was not completed for unspecified reasons."
 
 UCF(1,1)
+
+
+g3n = ["LAC(1)", "DAL(0)", "POR(0)", "ORL(0)", "MIA(1)", "TOR(1)", "BOS(1)", "HOU(0)", "DEN(0)", "LAL(1)", "MIL(1)", "IND(0)", "PHI(0)", "OKC(1)", "UTA(1)", "BKN(0)"]
+for team in g3n:
+    if "1" in team:
+        print team + " has won the third game of the series."
+    else:
+        print team + " has lost the third game of the series."
