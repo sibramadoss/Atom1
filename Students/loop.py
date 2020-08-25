@@ -234,3 +234,16 @@ for team in g3n:
         print team + " has won the third game of the series."
     else:
         print team + " has lost the third game of the series."
+
+
+
+g4n = ["LAC(0)", "DAL(1)", "POR(0)", "ORL(0)", "MIA(4)", "TOR(4)", "BOS(1)", "HOU(0)", "DEN(0)", "LAL(1)", "MIL(1)", "IND(0)", "PHI(x)", "OKC(1)", "UTA(1)", "BKN(x)"]
+for team in g4n:
+    if "1" in team:
+        print team + " has won the fourth game of the series."
+    elif "4" in team:
+        print team + " has swept the series and moves on to the next round."
+    elif "x" in team:
+        print team + " has lost the series and been eliminated."
+    else:
+        print team + " has lost the fourth game of the series."
