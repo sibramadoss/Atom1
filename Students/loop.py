@@ -247,3 +247,14 @@ for team in g4n:
         print team + " has lost the series and been eliminated."
     else:
         print team + " has lost the fourth game of the series."
+
+
+pga = ["Tiger Woods(-6)", "Dustin Johnson(-30)", "Jon Rahm(-16)"]
+
+for player in pga:
+    if "-30" in player:
+        print player + " has won the Northern Trust Open."
+    elif "-16" in player:
+        print player + " has finished 6th in the Northern Trust Open."
+    else:
+        print player + " has finished 58th in the Northen Trust Open"
