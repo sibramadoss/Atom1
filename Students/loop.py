@@ -258,3 +258,9 @@ for player in pga:
         print player + " has finished 6th in the Northern Trust Open."
     else:
         print player + " has finished 58th in the Northen Trust Open"
+
+g5n = ["LAC(p)", "DAL(p)", "POR(p)", "ORL(p)", "MIA(p)", "TOR(p)", "BOS(p)", "HOU(p)", "DEN(p)", "LAL(p)", "MIL(p)", "IND(p)", "PHI(p)", "OKC(p)", "UTA(p)", "BKN(p)"]
+
+for team in g5n:
+    if "p" in team:
+        print team + "'s next game in appropriate series has been postponed."
