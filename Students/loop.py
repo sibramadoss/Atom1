@@ -264,3 +264,10 @@ g5n = ["LAC(p)", "DAL(p)", "POR(p)", "ORL(p)", "MIA(p)", "TOR(p)", "BOS(p)", "HO
 for team in g5n:
     if "p" in team:
         print team + "'s next game in appropriate series has been postponed."
+
+WSO = ["Naomi Osaka(w)", "Johanna Conta", "Victoria Azarenka(w)", "Elise Mertens"]
+for player in WSO:
+    if "w" in player:
+        print player + " has advanced to the final."
+    else:
+        print player + " has been eliminated."
