@@ -271,3 +271,13 @@ for player in WSO:
         print player + " has advanced to the final."
     else:
         print player + " has been eliminated."
+
+def fac(ARS, LIV):
+    if ARS > LIV:
+        print "Arsenal has won the FA Community Shield."
+    elif LIV > ARS:
+        print "Liverpool has won the FA Community Shield."
+    else:
+        print "The FA Community Shield will be decided through extra time, and then, if needed, penalties."
+
+fac(5,5)
