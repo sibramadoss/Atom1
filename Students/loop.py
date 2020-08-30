@@ -281,3 +281,12 @@ def fac(ARS, LIV):
         print "The FA Community Shield will be decided through extra time, and then, if needed, penalties."
 
 fac(5,5)
+
+f1b = ["Hamilton(1)", "Norris(7)", "Bottas(2)", "Verstappen(3)", "Albon(6)", "Ocon(5)", "Ricciardo(4)", "Gasly(8)", "Stroll(9)"]
+
+f1b.insert(1, f1b.pop(2))
+f1b.insert(2, f1b.pop(3))
+f1b.insert(3, f1b.pop(6))
+f1b.insert(4, f1b.pop(6))
+f1b.insert(5, f1b.pop(6))
+print(f1b)
